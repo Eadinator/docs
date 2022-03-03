@@ -1,0 +1,55 @@
+[ Vi ]
+ciw - Change inner word
+c[n]aw - Change [n] words
+ct[char] - Change to [char]
+cf[char] - Change to and including [char]
+ci[quote char] - Change inside [quote char]
+cit - Change inside HTML tag
+cip - Change inner paragraph
+
+diw - Delete inner word
+d[n]aw - Delete [n] words
+di[quote char] - Delete inside [quote char]
+dit - Delete inside HTML tag
+dip - Delete inner paragraph
+
+o - Insert line below
+O - Insert line above
+
+x - Delete character
+
+r[char] - Replace character with [char]
+R - Replace multiple characters
+
+yy - Yank link
+[n]yy - Yank [n] lines
+yiw - Yank word
+y[n]aw - Yank [n] words
+
+p - Paste below line
+P - Paste above line
+
+dd - Delete line
+[n]dd - Delete [n] lines
+
+. - Repeat
+
+Ctrl-A - Increment
+Ctrl-X - Decrement
+
+
+
+[ Surround ]
+ysiw[quote char/tag] - Surround inner word with [quote char/tag]
+ys[n]aw[quote char/tag] - Surround [n] words with [quote char/tag]
+
+ds[quote char] - Delete surrounding [quote char]
+dst - Delete surrounding tags
+
+cs[t/quote char][quote char/tag] - Replace surrounding [tags/quote char] with [quote char/tag]
+
+
+[ Commentary ]
+gcc - (un)Comment a line
+[n]gcc - (un)Comment [n] lines
+gcap - (un)Comment a paragraph
